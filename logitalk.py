@@ -10,7 +10,7 @@ import socket, threading
 class MainWindow(CTk):
     def __init__(self):
         super().__init__()
-        self.title("LogiTalk")
+        self.title("LogiTalk (месенджер)")
         self.geometry("800x600")
         self.label = None
 
